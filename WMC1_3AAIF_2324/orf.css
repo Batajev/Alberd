@@ -1,0 +1,124 @@
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  width: 1000px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#navi{
+  color: white;
+}
+
+.news{
+  font-size: 30px;
+  position: relative;
+  top: 10px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+nav {
+  background-color: #16416B;
+  padding: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+  padding-left: 30px;
+  margin-left: 20px;
+}
+
+article {
+  background-color: steelblue;
+  color: white;
+  padding-left:  20px;
+  padding-top: 20px;
+}
+
+
+
+#putin{
+  position: relative;
+  left: 75px;
+  position: relative;
+  top: 7px;
+  height: 75px;
+}
+
+#sd{
+  position: relative;
+  left: 275px;
+  position: relative;
+  bottom: 50px;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.bes{
+  position: relative;
+  bottom: 10px;
+  text-align: center;
+  color: white;
+}
+
+.orf{
+  position: relative;;
+  bottom: 52px;
+  padding-left: 100px;
+}
+
+img {
+  max-width: 100%;
+}
+
+footer{
+  padding-left: 20px;
+  line-height: 0.2cm;
+  font-style: italic;
+}
+
+
+
+figure{
+  background-color: #f0f8ff;
+  border-left: 10px solid dodgerblue;
+  border-radius: 5px;
+  line-height: 0.1cm;
+  width: 910px;
+}
+
+.welt{
+  color: blue;
+}
+
+hr{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#wp{
+  text-align: center;
+  position: relative;
+  bottom: 10px;
+}
+
