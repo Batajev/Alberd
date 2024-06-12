@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #333;
+}
+
+header {
+  background-color: #313131;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+.eingabe-formular, .ausgaben-übersicht {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  align-items: center;
+}
+
+form label {
+  grid-column: 1 / span 1;
+}
+
+form select, form input {
+  grid-column: 2 / span 1;
+  padding: 5px;
+  border: 1px solid #353535;
+  border-radius: 4px;
+}
+
+form button {
+  grid-column: 1 / span 2;
+  padding: 10px;
+  background-color: #41b757;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.ausgaben-übersicht ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.ausgaben-übersicht li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #00ff11;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.ausgaben-übersicht p {
+  font-weight: bold;
+  text-align: right;
+  padding-top: 10px;
+  border-top: 1px solid #ddd;
+}
